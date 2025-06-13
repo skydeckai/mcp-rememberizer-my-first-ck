@@ -1,5 +1,5 @@
 [project]
-name = "{{REPO_NAME}}"
+name = "mcp-rememberizer-my-first-ck"
 version = "0.1.4"
 description = "A Model Context Protocol server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer."
 readme = "README.md"
@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-{{REPO_NAME}} = "mcp_server_rememberizer:main"
+mcp-rememberizer-my-first-ck = "mcp_server_rememberizer:main"
 
 # ==== isort ====
 [tool.isort]
