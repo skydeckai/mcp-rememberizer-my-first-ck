@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 
 REMEMBERIZER_BASE_URL = "https://api.rememberizer.ai/api/v1/"
 REMEMBERIZER_API_TOKEN = os.getenv("REMEMBERIZER_API_TOKEN")
-REMEMBERIZER_CK_ID = "{{CK_ID}}"
+REMEMBERIZER_CK_ID = "11"
 
 if not REMEMBERIZER_API_TOKEN:
     raise ValueError("REMEMBERIZER_API_TOKEN environment variable required")
