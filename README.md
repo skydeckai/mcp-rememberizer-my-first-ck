@@ -1,10 +1,10 @@
 # MCP Server Rememberizer
 
-[![smithery badge](https://smithery.ai/badge/{{REPO_NAME}})](https://smithery.ai/server/{{REPO_NAME}})
+[![smithery badge](https://smithery.ai/badge/mcp-rememberizer-my-first-ck)](https://smithery.ai/server/mcp-rememberizer-my-first-ck)
 
 A [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) server for interacting with Rememberizer's document and knowledge management API. This server enables Large Language Models to search, retrieve, and manage documents and integrations through Rememberizer.
 
-Please note that `{{REPO_NAME}}` is currently in development and the functionality may be subject to change.
+Please note that `mcp-rememberizer-my-first-ck` is currently in development and the functionality may be subject to change.
 
 ## Components
 
@@ -68,18 +68,18 @@ The server provides access to two types of resources: Documents or Slack discuss
 ### Via mcp-get.com
 
 ```bash
-npx @michaellatman/mcp-get@latest install {{REPO_NAME}}
+npx @michaellatman/mcp-get@latest install mcp-rememberizer-my-first-ck
 ```
 
 ### Via Smithery
 
 ```bash
-npx -y @smithery/cli install {{REPO_NAME}} --client claude
+npx -y @smithery/cli install mcp-rememberizer-my-first-ck --client claude
 ```
 
 ### Via SkyDeck AI Helper App
 
-If you have SkyDeck AI Helper app installed, you can search for "Rememberizer" and install the {{REPO_NAME}}.
+If you have SkyDeck AI Helper app installed, you can search for "Rememberizer" and install the mcp-rememberizer-my-first-ck.
 
 ![SkyDeck AI Helper](https://docs.rememberizer.ai/~gitbook/image?url=https%3A%2F%2F2952947711-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FyNqpTh7Mh66N0RnO0k24%252Fuploads%252FYyy7b70uYnO8Gm5V7spp%252Fimage.png%3Falt%3Dmedia%26token%3D008d56ea-44f8-482a-a889-f7d933f1d734&width=768&dpr=2&quality=100&sign=661e8789&sv=2)
 
@@ -101,7 +101,7 @@ Add this to your `claude_desktop_config.json`:
 "mcpServers": {
   "rememberizer": {
       "command": "uvx",
-      "args": ["{{REPO_NAME}}"],
+      "args": ["mcp-rememberizer-my-first-ck"],
       "env": {
         "REMEMBERIZER_API_TOKEN": "your_rememberizer_api_token"
       }
@@ -111,7 +111,7 @@ Add this to your `claude_desktop_config.json`:
 
 ### Usage with SkyDeck AI Helper App
 
-Add the env REMEMBERIZER_API_TOKEN to {{REPO_NAME}}.
+Add the env REMEMBERIZER_API_TOKEN to mcp-rememberizer-my-first-ck.
 
 ![SkyDeck AI Helper Configuration](https://docs.rememberizer.ai/~gitbook/image?url=https%3A%2F%2F2952947711-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FyNqpTh7Mh66N0RnO0k24%252Fuploads%252FwQnwWCWlNbdVmJqyxHQp%252Fimage.png%3Falt%3Dmedia%26token%3D6032aa53-c1e9-46ee-b0fd-089fcb63dcc6&width=768&dpr=2&quality=100&sign=38c5ec43&sv=2)
 
